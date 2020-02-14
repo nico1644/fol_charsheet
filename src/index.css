@@ -1,13 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Adamina&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #cd2028;
+  font-family: 'Adamina', serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.name {
+  width: 100%;
+  height:100%;
+  padding: 5px;
+}
+
+.orders{
+  text-align: center;
+}
+
+.healthsection {
+  height: 100%;
+  width: 100%;
+  background: #ffff;
+}
+
+.octagon {
+  border-radius: 5px;
+  border-style: double;
+  border-width: 5px;
+  background-color: #ffff;
+}
+
+.stats{
+  height: 100px;
+}
+
+.statval {
+  font-size: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.levels {
+  height: 50px !important;
+}
+
+.topheader {
+  width: 45%;
+  padding: 0px !important;
+}
+
+.bottomfield {
+  padding: 0px !important;
+  background: #cd2028;
+}
+
+.curhealth {
+  width: 75%;
+  position: absolute;
+}
+
+.maxhealth {
+  width: 75%;
+  position: absolute;
+}
+
+.stt {
+  width: 50%;
+}
+
+.scroll {
+  overflow: auto;
+  max-height: 601px;
 }
